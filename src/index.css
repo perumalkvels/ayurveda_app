@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@300;400;500;600;700&display=swap');
+
+*{
+  padding: 0;
+  margin : 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#scroll::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+}
+
+#scroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent; /* Track background color */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #9d9d9d; /* Thumb background color */
+  border-radius: 10px; /* Rounded corners for the thumb */
+  height: 100px;
+}
