@@ -145,7 +145,7 @@ export default function EditProductPage() {
             const priceForQty = (qtyType === 'gram' || qtyType === 'ml') ? ((curMaterialData.price/1000)*(parseInt(qty))) 
                                                                           : ((curMaterialData.price/1000)*(parseInt(qty)*1000));
 
-            const productPrice = filterMaterialItem?.reduce((acc, item) => acc += item.priceForQty, 0)
+            const productPrice = filterMaterialItem?.reduce((acc, item) => acc += item.price, 0)
 
             return {...item,price : productPrice+priceForQty,
                     rawMaterials: [{ 

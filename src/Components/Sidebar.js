@@ -111,7 +111,7 @@ export default function Sidebar({open,setOpen}){
               ...(!open && { display: 'none' }),
             }}
           >
-            AGARAM
+          ஆயுர்வேதா
           </Typography>
         </DrawerHeader>
         <List>
